@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bd3fcc26dc9f4d498e9b7ae66196cf7, type: 3}
+  m_Name: 27. Shield Bash_Tier1
+  m_EditorClassIdentifier: 
+  IsConditionCard: 0
+  name: Shield Bash
+  staminaCost: 2
+  description: 'Guard: 1, Stun'
+  artwork: {fileID: 21300000, guid: ef3f878436fa23e42bbe12483c765b2e, type: 3}
+  upgradeType: 1
+  upgradeCard: {fileID: 0}
+  element: {fileID: 0}
+  fullDescription: 'Armour +1
+
+    Chance to Stun - 60%. Can only play ''Guard'' card for 1 turn for opponent. Last
+    1 turn. After 1 turn, opponent gain immunity to stun for 3 turns'
+  actionEffect:
+  - actionType: 2
+    num: 1
+  statusEffect:
+  - statusType: 2
+    numOfTurns: 1

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bd3fcc26dc9f4d498e9b7ae66196cf7, type: 3}
+  m_Name: 32. Regeneration_Tier1
+  m_EditorClassIdentifier: 
+  IsConditionCard: 0
+  name: Regeneration
+  staminaCost: 10
+  description: 'Heal: 5, Health Regen'
+  artwork: {fileID: 21300000, guid: 5bbd267114d69eb4689f33c40843acd7, type: 3}
+  upgradeType: 1
+  upgradeCard: {fileID: 0}
+  element: {fileID: 0}
+  fullDescription: 'Health +5
+
+    At the start of a new turn, +1 Health for 3 turns. Last 3 turn'
+  actionEffect:
+  - actionType: 1
+    num: 5
+  statusEffect:
+  - statusType: 3
+    numOfTurns: 3

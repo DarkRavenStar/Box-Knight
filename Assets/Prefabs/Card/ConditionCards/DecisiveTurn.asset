@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4050023c713cb64ea1c05318eb3876c, type: 3}
+  m_Name: DecisiveTurn
+  m_EditorClassIdentifier: 
+  IsConditionCard: 1
+  name: Decisive Turn
+  staminaCost: 0
+  description: "If the current turn is an odd number, then recover 3 health. Otherwise
+    Draw 2 then discard 1 card from hand.\r"
+  artwork: {fileID: 21300000, guid: 774ac1433a9e94b4b9b768773663eaee, type: 3}
+  conditions:
+  - conditionType: 5
+    conditionComparison: 5
+    value: 8
+  failedConditionEffects:
+  - actionType: 6
+    num: 2
+  - actionType: 4
+    num: 1
+  failedConditionStatus: []
+  successConditionEffects:
+  - actionType: 1
+    num: 3
+  successConditionStatus: []
